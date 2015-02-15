@@ -9,7 +9,7 @@
         <header class="container"><h2>Moja aplikacja <small>Pracownicy</small></h2></header>
         <div class="container" ng-controller="workersController as worker">
             <ul class="list-group">
-                <li class="list-group-item" ng-repeat="person in worker.workers">{{person.imie + ' ' + person.nazwisko}}</li>
+                <li class="list-group-item" ng-show="{{person.pracuje}}" ng-repeat="person in worker.workers">{{person.imie + ' ' + person.nazwisko}}</li>
             </ul>
         </div>
     </body>

@@ -10,19 +10,22 @@
             imie: 'Jan',
             nazwisko: 'Nowak',
             wiek: '29',
-            plec: 'M'
+            plec: 'M',
+            pracuje: true
         },
         {
             imie: 'Anna',
             nazwisko: 'Kowalska',
             wiek: '37',
-            plec: 'K'
+            plec: 'K',
+            pracuje: true
         },
         {
             imie: 'Paweł',
             nazwisko: 'Szulc',
             wiek: '34',
-            plec: 'M'
+            plec: 'M',
+            pracuje: false
         }
     ];
     
